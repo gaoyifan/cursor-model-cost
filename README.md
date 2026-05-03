@@ -2,8 +2,6 @@
 
 A [Tampermonkey](https://www.tampermonkey.net/) userscript that adds a **Cost** column to [cursor.com/dashboard/usage](https://cursor.com/dashboard/usage) and [cursor.com/dashboard/billing](https://cursor.com/dashboard/billing). It shows the underlying model API cost (USD) of each request (or per-model totals on the billing page), computed from `inputTokens / outputTokens / cacheReadTokens / cacheWriteTokens`.
 
-![cost column screenshot placeholder](https://via.placeholder.com/800x60?text=Cost+column+added+to+the+Cursor+dashboard+table)
-
 ## Why?
 
 Cursor's dashboard already shows a per-row token total and reveals the input / output / cache‑read / cache‑write breakdown only via a hover tooltip — it never tells you the dollar value of a single request, only the abstract "Cursor request units" or the discounted price Cursor charges you. This script computes the **list price you would have paid calling the upstream model API directly**, so you can see at a glance how much each request would cost outside the Cursor subscription.
