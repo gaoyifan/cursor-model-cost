@@ -1,0 +1,16 @@
+# Saved Cursor dashboard HTML used for offline inspection. Contains personal
+# usage data (model names, timestamps, token counts), so do not commit.
+Cursor*The best way to code with AI.html
+Cursor*The best way to code with AI_files/
+
+# Node test artifacts (only created when running the local jsdom/Playwright tests).
+node_modules/
+package.json
+package-lock.json
+test.mjs
+live-test.mjs
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
